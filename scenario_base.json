@@ -1,0 +1,20 @@
+{
+  "nSta": 40,
+  "simTime_s": 60000.0,
+  "phyMode": "CAPTURE",
+  "areaRadius": 50.0,
+  "apPos": [0.0, 0.0],
+  "raw": {
+    "enabled": true,
+    "beaconInterval_ms": 1024,
+    "rawStartOffset_us": 2000,
+    "slot_us": 20000,
+    "numSlots": 10,
+    "csbEnabled": true
+  },
+  "traffic": {
+    "ul_lambda_per_sec": 0.2,
+    "dl_lambda_per_sec": 0.2,
+    "payloadBytes": 64
+  }
+}
